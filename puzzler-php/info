@@ -1,0 +1,49 @@
+d@pro:~/dev/2014/puzzler/puzzler-php(master+)$ ./test-hhvm 81
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 3
+real    0m0.084s
+user    0m0.064s
+sys     0m0.016s
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 3648
+real    0m2.463s
+user    0m2.452s
+sys     0m0.008s
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 36
+real    0m0.076s
+user    0m0.044s
+sys     0m0.028s
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 4397184
+real    50m8.402s
+user    50m1.904s
+sys     0m0.012s
+
+
+
+d@pro:~/dev/2014/puzzler/puzzler-php(master+)$ ./test-hhvm 3c
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 3
+
+real    0m0.094s
+user    0m0.080s
+sys     0m0.012s
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 3648
+
+real    0m2.169s
+user    0m2.140s
+sys     0m0.024s
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 36
+
+real    0m0.075s
+user    0m0.056s
+sys     0m0.016s
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 4397184
+
+real    43m23.853s
+user    43m18.224s
+sys     0m0.076s

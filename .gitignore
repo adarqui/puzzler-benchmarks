@@ -1,0 +1,6 @@
+core
+*.o
+*.hi
+*.ali
+.cabal-sandbox
+puzzler-hs/dist

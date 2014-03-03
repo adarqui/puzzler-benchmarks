@@ -1,0 +1,188 @@
+
+
+--------------------- args ---------------------
+/home/d/dev/2014/puzzler/puzzler-php hhvm -m run --php -v Eval.JitWarmupRequests=0 ./puzzler.php 3d
+
+
+--------------------- fig1 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 0
+
+real	0m0.075s
+user	0m0.068s
+sys	0m0.004s
+
+
+--------------------- fig2 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 0
+
+real	0m0.079s
+user	0m0.056s
+sys	0m0.020s
+
+
+--------------------- fig3 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 0
+
+real	0m0.089s
+user	0m0.076s
+sys	0m0.016s
+
+
+--------------------- fig4 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 0
+
+real	0m0.079s
+user	0m0.060s
+sys	0m0.016s
+
+
+--------------------- fig5 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 0
+
+real	0m0.082s
+user	0m0.064s
+sys	0m0.016s
+
+
+--------------------- fig6 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 2
+
+real	0m0.090s
+user	0m0.068s
+sys	0m0.020s
+
+
+--------------------- fig7 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 1
+
+real	0m0.080s
+user	0m0.052s
+sys	0m0.024s
+
+
+--------------------- fig8 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 2
+
+real	0m0.081s
+user	0m0.064s
+sys	0m0.016s
+
+
+--------------------- fig9 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 8
+
+real	0m0.090s
+user	0m0.080s
+sys	0m0.008s
+
+
+--------------------- fig10 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 4
+
+real	0m0.080s
+user	0m0.068s
+sys	0m0.008s
+
+
+--------------------- fig11 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 44
+
+real	0m0.083s
+user	0m0.072s
+sys	0m0.008s
+
+
+--------------------- fig12 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 6
+
+real	0m0.090s
+user	0m0.068s
+sys	0m0.020s
+
+
+--------------------- fig13 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 3
+
+real	0m0.079s
+user	0m0.060s
+sys	0m0.016s
+
+
+--------------------- fig14 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 12
+
+real	0m0.083s
+user	0m0.068s
+sys	0m0.012s
+
+
+--------------------- fig15 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 6
+
+real	0m0.090s
+user	0m0.064s
+sys	0m0.024s
+
+
+--------------------- fig16 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 36
+
+real	0m0.079s
+user	0m0.064s
+sys	0m0.012s
+
+
+--------------------- fig17 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 12
+
+real	0m0.083s
+user	0m0.068s
+sys	0m0.012s
+
+
+--------------------- fig18 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 4
+
+real	0m0.084s
+user	0m0.064s
+sys	0m0.020s
+
+
+--------------------- fig19 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 18
+
+real	0m0.089s
+user	0m0.080s
+sys	0m0.008s
+
+
+--------------------- fig20 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)
+successes: 3648
+
+real	0m2.055s
+user	0m2.036s
+sys	0m0.016s
+
+
+--------------------- fig21 ---------------------
+hhvm: /usr/local/lib/libcurl.so.4: no version information available (required by hhvm)

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../test `pwd` "hhvm -m run --php -v Eval.JitWarmupRequests=0 ./puzzler.php" $1

@@ -1,0 +1,236 @@
+
+
+--------------------- args ---------------------
+/home/d/dev/2014/puzzler/puzzler-js node ./puzzler.js 3c
+
+
+--------------------- fig1 ---------------------
+
+/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256
+	for(var i = v, j = 0; j < cm[i].length; j++) {
+	                               ^
+TypeError: Cannot read property 'length' of undefined
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256:33)
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:271:4)
+    at solve3c (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:241:3)
+    at init_cli (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:568:4)
+    at init (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:594:3)
+    at Object.<anonymous> (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:598:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+real	0m0.029s
+user	0m0.020s
+sys	0m0.008s
+
+
+--------------------- fig2 ---------------------
+
+/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256
+	for(var i = v, j = 0; j < cm[i].length; j++) {
+	                               ^
+TypeError: Cannot read property 'length' of undefined
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256:33)
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:271:4)
+    at solve3c (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:241:3)
+    at init_cli (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:568:4)
+    at init (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:594:3)
+    at Object.<anonymous> (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:598:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+real	0m0.033s
+user	0m0.028s
+sys	0m0.004s
+
+
+--------------------- fig3 ---------------------
+
+/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256
+	for(var i = v, j = 0; j < cm[i].length; j++) {
+	                               ^
+TypeError: Cannot read property 'length' of undefined
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256:33)
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:271:4)
+    at solve3c (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:241:3)
+    at init_cli (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:568:4)
+    at init (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:594:3)
+    at Object.<anonymous> (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:598:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+real	0m0.036s
+user	0m0.024s
+sys	0m0.012s
+
+
+--------------------- fig4 ---------------------
+
+/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256
+	for(var i = v, j = 0; j < cm[i].length; j++) {
+	                               ^
+TypeError: Cannot read property 'length' of undefined
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:256:33)
+    at solveV3b (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:271:4)
+    at solve3c (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:241:3)
+    at init_cli (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:568:4)
+    at init (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:594:3)
+    at Object.<anonymous> (/home/d/dev/2014/puzzler/puzzler-js/puzzler.js:598:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+real	0m0.026s
+user	0m0.028s
+sys	0m0.000s
+
+
+--------------------- fig5 ---------------------
+successes: 0
+
+real	0m0.026s
+user	0m0.020s
+sys	0m0.004s
+
+
+--------------------- fig6 ---------------------
+successes: 2
+
+real	0m0.032s
+user	0m0.024s
+sys	0m0.004s
+
+
+--------------------- fig7 ---------------------
+successes: 1
+
+real	0m0.033s
+user	0m0.028s
+sys	0m0.004s
+
+
+--------------------- fig8 ---------------------
+successes: 2
+
+real	0m0.036s
+user	0m0.028s
+sys	0m0.004s
+
+
+--------------------- fig9 ---------------------
+successes: 8
+
+real	0m0.028s
+user	0m0.020s
+sys	0m0.004s
+
+
+--------------------- fig10 ---------------------
+successes: 4
+
+real	0m0.026s
+user	0m0.016s
+sys	0m0.008s
+
+
+--------------------- fig11 ---------------------
+successes: 44
+
+real	0m0.039s
+user	0m0.032s
+sys	0m0.004s
+
+
+--------------------- fig12 ---------------------
+successes: 6
+
+real	0m0.030s
+user	0m0.020s
+sys	0m0.008s
+
+
+--------------------- fig13 ---------------------
+successes: 3
+
+real	0m0.027s
+user	0m0.020s
+sys	0m0.004s
+
+
+--------------------- fig14 ---------------------
+successes: 12
+
+real	0m0.032s
+user	0m0.028s
+sys	0m0.000s
+
+
+--------------------- fig15 ---------------------
+successes: 6
+
+real	0m0.034s
+user	0m0.028s
+sys	0m0.004s
+
+
+--------------------- fig16 ---------------------
+successes: 36
+
+real	0m0.031s
+user	0m0.032s
+sys	0m0.000s
+
+
+--------------------- fig17 ---------------------
+successes: 12
+
+real	0m0.038s
+user	0m0.028s
+sys	0m0.008s
+
+
+--------------------- fig18 ---------------------
+successes: 4
+
+real	0m0.030s
+user	0m0.024s
+sys	0m0.004s
+
+
+--------------------- fig19 ---------------------
+successes: 18
+
+real	0m0.035s
+user	0m0.028s
+sys	0m0.004s
+
+
+--------------------- fig20 ---------------------
+successes: 3648
+
+real	0m0.088s
+user	0m0.084s
+sys	0m0.004s
+
+
+--------------------- fig21 ---------------------
+successes: 10583040
+
+real	0m53.037s
+user	0m53.040s
+sys	0m0.288s
+
+
+--------------------- fig22 ---------------------
+successes: 28032
+
+real	0m0.517s
+user	0m0.508s
+sys	0m0.008s

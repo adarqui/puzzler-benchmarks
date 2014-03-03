@@ -1,0 +1,154 @@
+***WARNING*** I've git'd binaries. Don't ever run unknown binaries unless you're in a sandbox. ***WARNING***
+
+Office puzzle challenge.
+
+Much respect to everyone who spent time working on a solution.
+
+:F
+
+
+HOWTO:
+
+cd puzzler-c
+make
+./test 4001
+./test2 4001
+./test3 4001
+
+4001 is the index for the c variant which prints out all of the different traversals etc.
+
+
+
+Otherwise..
+
+
+C
+
+$ ./test 4
+successes: 3
+
+real    0m0.005s
+user    0m0.000s
+sys     0m0.000s
+successes: 3648
+
+real    0m0.009s
+user    0m0.020s
+sys     0m0.008s
+successes: 36
+
+real    0m0.005s
+user    0m0.012s
+sys     0m0.000s
+successes: 10583040
+
+real    0m5.998s
+user    0m21.248s
+sys     0m0.000s
+
+
+The parallel (openmp) C {ptr,adjacency matrix,companion matrix} variations kill everything handedly. On the other hand, php is absolutely atrocious - ~50min to finish traversal count using hhvm (even worse with normal php cli), where C finishes (using the same algo) in < 10 seconds. Gj.
+
+Check ./examples-benchmarks for some tests of how similar algorithms fair across languages, on my 4 core Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz, 8 G Ram ubuntu-server box.
+
+The description of the 'indexes' passed to the various language ports/algo variations is given below.
+
+------------------------------------------------------------------------------
+
+./puzzler <type{0..}> "X Y" ... "Y X"
+
+0: dumb adjacency matrix - copy
+	ada, c, nodejs, go
+
+1: dumb adjacency matrix - ptr
+	c, ada, fortran, go, nodejs
+
+2: dumb adjacency matrix - ptr - with parallelization
+	c, fortran (3, 4 also)
+
+2b: dumb adjacency matrix - ptr - with parallelization - channel write back
+	go
+
+3: dumb matrix + companion matrix - ptr
+	c, nodejs
+
+3b: dumb matrix + companion matrix - ptr - no push/pop for vertex result list - dynamically resizing array
+	nodejs
+
+3c: dumb matrix + companion matrix - ptr - no push/pop for vertex result list - prebuilt array
+	nodejs, php
+
+3d: dumb matrix + companion matrix - ptr - no push/pop for vertex result list - prebuilt array - no copying results into result set (no vs)
+	php
+
+4: dumb matrix + companion matrix - ptr - with parallelization
+	c
+
+40: dynamic dumb matrix + companion matrix - ptr - with parallelization
+	c
+
+400: same as 4, less checks
+	c
+
+4001: same as 4000, print all variations
+	c
+
+4000: same as 40, less checks
+	c
+
+5: smarter matrix
+
+6: double map
+	haskell
+
+60: double map + parallel
+	haskell
+
+7: tco
+
+8: iterative loop with push/pop
+	nodejs
+
+80: iterative loop with arrays/indexes
+	c, nodejs
+
+81: iterative loop with arrays/indexes (optimized)
+	c
+	nodejs
+	php
+
+
+800: iterative loop with arrays/indexes + parallel
+	c
+
+8000: iterative loop with arrays/indexes (optimized) + parallel
+	c
+
+9: dumb matrix + companion matrix + no local variables
+	c
+
+90: dumb matrix + companion matrix + no local variables - depth isn't a pointer
+	c
+
+900: dumb matrix + companion matrix + no local variables - tail recursive
+	c BROKEN
+
+9000: dumb matrix + companion matrix + no local variables - depth isn't a pointer
+	c, php
+
+9001:
+	php
+
+9002:
+	php
+
+6l: double hash map, functional p
+	haskell
+
+911: parallel bfs on gpu (cuda)
+	c (FAILED MISERABLY)
+
+
+eeeeeeeeeeeeuuuuuuuwwwwwgh.
+
+-- adarqui

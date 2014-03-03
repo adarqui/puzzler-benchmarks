@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../test2 `pwd` "./puzzler +RTS -N4 -RTS" $1
