@@ -1,5 +1,5 @@
 all:
-	gcc -ggdb -g3 main.c puzzler.c -O3 -funroll-loops -Wall -fopenmp -o puzzler
+	gcc main.c puzzler.c -O3 -funroll-loops -Wall -fopenmp -o puzzler
 #	gcc main.c puzzler.c -Ofast -unsafe-math-optimizations -O3 -funroll-loops -Wall -fopenmp -o puzzler
 #	gcc main.c puzzler.c -O3 -fomit-frame-pointer -funroll-loops -Wall -fopenmp -o puzzler
 # gcc -O3 -Q --help=optimizers|less
